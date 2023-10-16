@@ -115,7 +115,7 @@
         display: grid;
         grid-template-rows: 6vh 6vh 6vh 6vh 6vh 1fr;
         row-gap: 10px;
-        z-index: 100;
+        z-index: 200;
 
     }
 

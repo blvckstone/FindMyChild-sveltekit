@@ -19,7 +19,7 @@ export const childrenData = [
     },
     {
       fullName: "Charlotte Smith",
-      address: "789 Oak Street, Villageland orem ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic commodi architecto",
+      address: "789 Oak Street, Villageland orem ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic commodi architecto",                                                                                                                                                                                                
       contactNumber: "555-9012",
       state: "Texas",
       img: "https://images.pexels.com/photos/1549974/pexels-photo-1549974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",

@@ -3,18 +3,25 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --host --port 3333",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"deploy": "npx gh-pages -d .svelte-kit"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
+		"gh-pages": "^6.0.0",
 		"svelte": "^4.0.5",
 		"vite": "^4.4.2"
 	},
 	"type": "module",
 	"dependencies": {
-		"nprogress": "^0.2.0"
+		"aws-sdk": "^2.1462.0",
+		"lodash": "^4.17.21",
+		"node-fetch": "^3.3.2",
+		"nprogress": "^0.2.0",
+		"node-fetch": "^3.2.2"
 	}
 }

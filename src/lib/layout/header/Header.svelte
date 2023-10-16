@@ -24,7 +24,7 @@
         height: 6vh;
         background-color: rgb(255, 255, 255);
         box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.2);
-        /* position: sticky; */
+        position: sticky;
         top: 0;
         left: 0;
         width: 100%; /* Make it full width */
@@ -33,6 +33,7 @@
         grid-template-columns: 1fr 4fr 1fr;
         align-items: center;
         justify-items: center;
+        z-index: 100;
     }
 
     .brand{
@@ -45,8 +46,8 @@
         align-items: center;
         justify-content: center;
         -webkit-tap-highlight-color: transparent;
-        
     }
+    
     .menu:active{
         background-color: rgba(187, 187, 187, 0.4);
         padding: 5px 8px 5px 8px;
